@@ -5,7 +5,6 @@ https://github.com/openai/baselines/blob/ea25b9e8b234e6ee1bca43083f8f3cf97414399
 
 import os
 import sys
-import shutil
 import os.path as osp
 import json
 import time
@@ -21,6 +20,8 @@ WARN = 30
 ERROR = 40
 
 DISABLED = 50
+
+# os.environ['']
 
 
 class KVWriter(object):
